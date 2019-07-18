@@ -7,7 +7,7 @@ When people are filling out your form, it's best to give them feedback as quickl
 
 ## Release 1
 
-As usual, you can startWebpack and go to [localhost:8080](http://localhost:8080).
+As usual, you can start Webpack and go to [localhost:8080](http://localhost:8080).
 
 ```bash
 rake webpack
@@ -17,9 +17,9 @@ We want to validate the form as the user fills each input. The [`blur`](https://
 
 - All fields are required
 - Ensure the Terms of Service checkbox is ticked
-- Ensure the user enters a valid **French zipcode**
+- Ensure the user enters a valid **Malaysian zipcode**
 - Validate the email format
-- Validate the phone number. **French mobile phones only**
+- Validate the phone number. **Malaysian mobile phones only**
 - If all fields have been completed correctly, enable the submit button
 
 Open the `lib/validation.js` file. This is where you'll code the validation logic.
