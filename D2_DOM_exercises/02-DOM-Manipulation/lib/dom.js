@@ -17,7 +17,7 @@ module.exports = function runChallenges(check) {
   };
 
   // /!\ DO NOT CHANGE THIS LINE - TEST PURPOSES
-  const borisesEmail = getEmail();
+  const myEmail = getEmail();
 
   // Ex 2. Change the content of the email input by writing your own email address
 
@@ -68,5 +68,5 @@ module.exports = function runChallenges(check) {
 
 
   // Checking exercise answers. DO NOT MODIFY THIS LINE
-  check(borisesEmail, teamCountBeforeAddition, summarizePoints());
+  check(myEmail, teamCountBeforeAddition, summarizePoints());
 };
