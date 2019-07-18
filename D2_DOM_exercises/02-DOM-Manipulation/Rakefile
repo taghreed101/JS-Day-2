@@ -3,7 +3,6 @@ task :eslint do
 end
 
 task :mocha do
-  # For Kitt to trigger tests.
 end
 
 task :webpack do

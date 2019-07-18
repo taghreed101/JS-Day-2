@@ -3,7 +3,6 @@ task :eslint do
 end
 
 task :mocha do
-  # Needed for Kitt
 end
 
 task :webpack do
